@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881265585958",
+    "project_id": "clickup-a91a4",
+    "storage_bucket": "clickup-a91a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881265585958:android:7cf22031ee052ca2269be7",
+        "android_client_info": {
+          "package_name": "com.example.clickup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmrzhKmscKBjx_l5TiwzuEXo2fTl6Zep8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

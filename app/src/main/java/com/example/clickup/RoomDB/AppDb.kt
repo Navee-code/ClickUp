@@ -8,6 +8,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.sqlite.db.SupportSQLiteOpenHelper
+import com.example.clickup.constant.AppConstant
 import javax.inject.Inject
 import javax.inject.Provider
 
@@ -35,7 +36,7 @@ abstract class AppDb:RoomDatabase() {
                 return tempInstance
             }
             synchronized(this){
-                val instanceNew= Room.databaseBuilder(context.applicationContext,AppDb::class.java,"app_database").build()
+                val instanceNew= Room.databaseBuilder(context.applicationContext,AppDb::class.java,AppConstant.appDb).build()
                 instance=instanceNew
                 return instanceNew
             }

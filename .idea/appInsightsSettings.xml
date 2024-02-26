@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.clickup" />
+                  <option name="mobileSdkAppId" value="1:881265585958:android:7cf22031ee052ca2269be7" />
+                  <option name="projectId" value="clickup-a91a4" />
+                  <option name="projectNumber" value="881265585958" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
